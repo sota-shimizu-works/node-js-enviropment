@@ -1,0 +1,9 @@
+services:
+  app:
+    container_name: node-js
+    build: app
+    ports:
+      - "3000:3000"
+    tty: true
+    volumes:
+      - ../app:/usr/src/app
