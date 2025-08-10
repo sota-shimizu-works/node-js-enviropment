@@ -33,7 +33,7 @@ Docker-desctop には Docker compose が内包されています。この Docker
 $ cd node-js-docker
 ```
 
-まずは NodeJS を利用できるようにイメージをビルドします。Docker-compose を利用する場合、基本的には yml ファイルと同じディレクトリでコマンドを実行するので`node-js-docerディレクトリ`へ移動します。
+まずは NodeJS を利用できるようにイメージをビルドします。Docker-compose を利用する場合、基本的には yml ファイルと同じディレクトリでコマンドを実行するので`node-js-dockerディレクトリ`へ移動します。
 
 ```bash
 $ docker-compose build
